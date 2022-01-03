@@ -1,0 +1,17 @@
+<div class="confirm_email">
+	<h4>Your {{site_name}} acoount has been created. We just need to verify your email to complete registration.</h4>
+	<h5>You registered as follow:</h5>
+	<ul>
+		<li><strong>UserName</strong> {{user}}</li>
+		<li><strong>E-mail</strong> {{user.email}}</li>
+	</ul>
+
+	<div>
+		<a class="btn" href="{{ protocol }}://{{ domain }}{% url 'accounts:signup_confirm' uidb64=uid token=token %}">Confir Your E-mail</a> <br/>
+		<strong>Or</strong><br/>
+		{{ protocol }}://{{ domain }}{% url 'accounts:signup_confirm' uidb64=uid token=token %}	
+	</div>
+	
+	<p><strong>Thanks for using {{site_name}}!</strong></p>
+	<p>The {{ site_name }} team</p>
+</div>

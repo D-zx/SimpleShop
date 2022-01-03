@@ -1,0 +1,20 @@
+{
+  "title": "Welcome to react using react-i18next",
+  "auth": {
+    "sign-in": "Sign-In1",
+    "sign-up": "Sign-Up1",
+    "sign-out": "Sign-Out1",
+    "remember": "Remember me?1",
+    "forget": "Forget Password?1",
+    "reset": "reset here1",
+
+    "form": {
+      "username": "Enter User Name1",
+      "password": "Enter Password1",
+      "password2": "Confirm Password1",
+      "email": "Enter E-mail address1",
+      "firstname": "Enter First Name1",
+      "lastname": "Enter Last Name1"
+    }
+  }
+}

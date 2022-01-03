@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+django-oauth-toolkit = "*"
+psycopg2 = "*"
+pillow = "*"
+drf-writable-nested = "*"
+drf-nested-routers = "*"
+drf-extensions = "*"
+drf-flex-fields = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10.1"

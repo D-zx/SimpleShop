@@ -1,0 +1,176 @@
+{
+  "title": "SimpleShop",
+  
+  "auth": {
+    "sign-in": "Sign-In",
+    "sign-up": "Sign-Up",
+    "continute": "Continute",
+    "sign-out": "Sign-Out",
+    "remember": "Remember me?",
+    "forget": "Forget Password?",
+    "reset": "Forget your password?",
+    "profile": "Profile",
+    "email_sent": "An email has been sent to",
+    "resend": "To resend, click <1>here</>",
+    "reset-password": "Reset Password",
+    "verify": "Pleas verify your email address",
+    "verification-mail-sent": "A verification link has been sent to your email account - {{email}}",
+    "changePassword": "Change Password",
+
+    "form": {
+      "username": "Enter User Name",
+      "password": "Enter Password",
+      "password2": "Confirm Password",
+      "oldPassword": "Old Password",
+      "email": "Enter E-mail address",
+      "firstname": "Enter First Name",
+      "lastname": "Enter Last Name",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "phone": "Phone Number",
+      "birthday": "Date of Birth",
+      "address": "Address",
+      "update": "Update Profile"
+    }
+  },
+  
+  "password": {
+    "confirm": {
+      "invalid": {
+        "title" : "Sorry, your password reset link is invalid!",
+        "subheader": "Re-send email again?"
+      },
+      "valid": {
+        "title" : "Password Reset",
+        "subheader": "Set your new password."
+      },
+      "success": {
+        "title" : "Your password has been reset successfully",
+        "subheader": "Please sign-in with new password"
+      }
+    },
+    "change": {
+      "title": "Change Password",
+      "subheader": "Change your new password here."
+    }
+  },
+  
+  "email": {
+    "confirm": {
+      "invalid": {
+        "title" : "Email Verification failed!",
+        "subheader": "Please make sure the verification link from your E-mail"
+      },
+      "valid": {
+        "title" : "Your E-mail address is successfully verified!",
+        "subheader": "Please Login to access your account."
+      }
+    }
+  },
+
+  "profile": {
+    "title": "Edit Profile"
+  },
+
+  "shop": {
+    "myShop": "My Shops",
+    "name": "Shop Name",
+    "phone": "Phone Number",
+    "address": "Address",
+    "create": "Create New Shop",
+    "update": "Update",
+    "detail": "Shop Detail",
+    "search": "Search By Name",
+    "noData": "No shop data ..."
+  },
+  "brand": {
+    "brands": "Brands",
+    "list": "Brand Lists",
+    "name": "Brand Name",
+    "create": "Create New Brand",
+    "update": "Update",
+    "detail": "Brand Detail",
+    "search": "Search By Name",
+    "noData": "No Brand data ..."
+  },
+  "category": {
+    "list": "Category Lists",
+    "name": "Category Name",
+    "create": "Create New Category",
+    "update": "Update",
+    "detail": "Category Detail",
+    "search": "Search By Name",
+    "noData": "No Category data ..."
+  },
+  "product": {
+    "list": "Product Lists",
+    "name": "Product Name",
+    "price": "Price",
+    "stock": "Stock",
+    "images": "Images",
+    "description": "Description",
+    "imageUpload": "Upload Image",
+    "shop": "Shop Name",
+    "brand": "Brand Name",
+    "brand_select": "Select Brand",
+    "categories": "Category List",
+    "category_select": "Select Categories",
+    "create": "Create New Product",
+    "update": "Update",
+    "addImages": "Add Images",
+    "selectImages": "Select Images",
+    "upload": "Upload Images",
+    "detail": "Product Detail",
+    "search": "Search By Name",
+    "noData": "No Product data ...",
+    "currency": "Ks",
+    "quantity": "Quantity",
+    "order": "Order Now",
+    "addCart": "Add To Cart"
+  },
+  "cart": {
+    "subTotal": "Subtotal ({{length}})",
+    "shipping": "Shipping Fee",
+    "total": "Total",
+    "inStock": "({{stock}}) in Stock",
+    "checkout": "Check Out",
+    "noItem": "No item in your cart."
+  },
+  "shipping": {
+    "info": "Shipping Informaitons",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "email": "E-mail",
+    "phone": "Phone Number",
+    "name": "Name",
+    "address": "Delivery Address",
+    "city": "City",
+    "zip": "Zip/Postal Code",
+    "country": "Country",
+    "save": "Save Address"
+  },
+  "payment": {
+    "info": "Payment Informaitons",
+    "method": "Payment Methods",
+    "cash": "Cash on Delivery",
+    "card": "Card Payment",
+    "bank": "Bank Transfer",
+    "qr": "QR Scan"
+  },
+  "order": {
+    "confirmation": "Order Confirmation",
+    "confirm": "Confirm Order",
+    "id": "Order ID - {{id}}",
+    "items": "Item lists",
+    "myOrders": "My Orders",
+    "orders": "My Orders List",
+    "noData": "No Order List",
+    "total": "Total Items - {{length}} items",
+    "amount": "Total Amount - {{amount}} Kyats",
+    "date": "Order placed on - {{date}}",
+    "detail": "Order Details"
+  }
+}
